@@ -16,7 +16,7 @@ See [`shell.nix`](./shell.nix).
 
 ## Usage
 
-1. `degit blaix/nix-shell-emscripten my-npm-project`
-2. `cd my-npm-project`
+1. `degit blaix/nix-shell-emscripten my-project`
+2. `cd my-project`
 3. `direnv allow`
 4. `emcc -v` 🎉
