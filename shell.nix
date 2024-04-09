@@ -14,6 +14,7 @@ mkShell {
   buildInputs = [
     bashInteractive
     emscripten
+    nodejs_20
   ];
 
   shellHook = ''
