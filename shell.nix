@@ -7,7 +7,7 @@ mkShell {
       EMSCRIPTEN_ROOT = '${pkgs.emscripten}/share/emscripten'
       LLVM_ROOT = '${pkgs.emscripten.llvmEnv}/bin'
       BINARYEN_ROOT = '${pkgs.binaryen}'
-      NODE_JS = '${pkgs.nodejs-18_x}/bin/node'
+      NODE_JS = '${pkgs.nodejs_20}/bin/node'
       CACHE = '${toString ./.cache}'
     '';
 
